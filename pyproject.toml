@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "doorbell-desk"
+version = "0.1.0"
+description = "A voice-first simulated front desk for appointment businesses"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.34,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx>=0.28,<1",
+  "pytest>=8,<9",
+]
+
+[tool.setuptools.packages.find]
+include = ["doorbell_desk*"]
+
+[tool.setuptools.package-data]
+doorbell_desk = ["static/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

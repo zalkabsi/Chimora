@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:05,000
+Doorbell Desk is a simulated Alexa+ front desk.
+
+2
+00:00:05,000 --> 00:00:11,000
+A sample arrival starts the schedule check and reply workflow.
+
+3
+00:00:11,000 --> 00:00:17,000
+The trace shows the assistant plan and local tool results.
+
+4
+00:00:17,000 --> 00:00:25,000
+Elena is booked at 3:00 PM and arrived two minutes early.
+
+5
+00:00:25,000 --> 00:00:34,000
+The owner edits and approves. No message is sent.
+
+6
+00:00:34,000 --> 00:00:44,000
+Marcus arrives 30 minutes early; a wait-or-return reply is suggested.
+
+7
+00:00:44,000 --> 00:00:58,000
+An unknown visitor is not guessed; the assistant asks for details.
+
+8
+00:00:58,000 --> 00:01:04,000
+All data is synthetic. No live Alexa+, Ring, camera, lock, or messaging.
