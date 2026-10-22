@@ -45,6 +45,16 @@ The text box supports typing; browsers that offer Web Speech input also show
 an optional microphone control. Browser speech-recognition availability and
 audio handling depend on the browser; typing avoids microphone use.
 
+## Recorded demo
+
+The 64-second English demo video is
+[`submission-assets/chimora-demo.mp4`](submission-assets/chimora-demo.mp4). It
+includes narration and burned-in captions; the separate
+[caption file](submission-assets/chimora-demo.srt) and
+[voiceover script](submission-assets/chimora-demo-narration.txt) are included.
+The narration is rendered offline with FFmpeg/Flite and is part of the
+recording, not a live voice feature in the app.
+
 ## How it works
 
 - doorbell_event adds one of three controlled sample arrivals.
