@@ -1,4 +1,4 @@
-# Devpost submission draft — Doorbell Desk
+# Devpost submission draft — Chimora
 
 **Primary track:** Alexa+
 **Experience path:** Simulated Alexa+ web app
@@ -6,7 +6,7 @@
 
 ## Project title
 
-**Doorbell Desk — A calmer front desk for the moment someone arrives**
+**Chimora — A calmer front desk for the moment someone arrives**
 
 ## Project tagline
 
@@ -19,7 +19,7 @@ No hosted AI model, AWS service, Alexa+ SDK, Ring API, or MCP server is used.
 
 ## Short description
 
-Doorbell Desk helps a solo appointment-business owner respond when a visitor
+Chimora helps a solo appointment-business owner respond when a visitor
 arrives while their hands are busy. It checks the day’s bookings, explains a
 schedule match and how early the visitor is, and drafts a courteous reply that
 the owner can edit and approve.
@@ -28,13 +28,13 @@ the owner can edit and approve.
 
 Small appointment businesses often have no receptionist. A customer can arrive
 while the owner is repairing a device, serving another customer, or working in
-the back. Doorbell Desk turns a simulated doorbell event into useful booking
+the back. Chimora turns a simulated doorbell event into useful booking
 context without pretending to verify who is at the door.
 
 The demo includes a sample repair-studio schedule and three arrival scenarios:
 an expected visitor, someone who arrives early, and a visitor with no booking
 details. The owner can ask “Is my 3 o’clock here?” by typing or optional browser
-speech input. Doorbell Desk shows the schedule lookup and arrival match in a
+speech input. Chimora shows the schedule lookup and arrival match in a
 visible tool trace, explains its reasoning, and drafts a response for owner
 review. The owner can edit, approve, or dismiss the reply. Approval is simulated;
 the app does not send a message.
@@ -52,7 +52,7 @@ integration. These limits are deliberate so the demo stays honest and safe.
 
 The Alexa+ rules allow a simulated Alexa+ experience in a web app using an AI
 or agentic tool, without requiring a live Alexa+ connection or MCP surface.
-Doorbell Desk demonstrates a local deterministic tool-using assistant that
+Chimora demonstrates a local deterministic tool-using assistant that
 selects and runs tools based on the arrival and owner request. The rules do not
 define a minimum model or framework for this simulation path; describe the
 implementation exactly and do not claim a live Alexa+ integration.
@@ -60,9 +60,9 @@ implementation exactly and do not claim a live Alexa+ integration.
 ## Recorded demo video (64 seconds)
 
 The current upload-ready clip is
-[`submission-assets/doorbell-desk-demo.mp4`](../submission-assets/doorbell-desk-demo.mp4).
+[`submission-assets/chimora-demo.mp4`](../submission-assets/chimora-demo.mp4).
 It has burned-in English captions and a separate caption file at
-[`submission-assets/doorbell-desk-demo.srt`](../submission-assets/doorbell-desk-demo.srt).
+[`submission-assets/chimora-demo.srt`](../submission-assets/chimora-demo.srt).
 
 1. **0:00–0:11:** Introduce the simulated Alexa+ web experience and trigger an
    expected arrival.
@@ -106,10 +106,10 @@ Complete this section with the entrant’s own experience before submission.
 ## Submission fields still requiring the entrant
 
 - Join the hackathon and submit through the entrant’s Devpost account.
-- The GitHub repository is named RevertProof and is currently private. Its
-  `work` branch uses a fresh Doorbell Desk-only history root; earlier project
-  commits are excluded from that branch. Make the repository public before
-  submitting and verify that the MIT license appears on GitHub. If keeping the
+- The GitHub repository is currently named RevertProof and is private. Rename
+  it to `Chimora` in GitHub repository settings, then make it public and verify
+  that the MIT license appears. GitHub search found no `Chimora` repository and
+  no repo of that name in the owner account on October 22, 2026. If keeping the
   repository private instead, invite
   `testing@devpost.com`, knmeiss, giolaq,
   anishamalde, mosesroth, and emersonsklar. Confirm all invitations are

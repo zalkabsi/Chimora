@@ -11,10 +11,10 @@ That is **10:00 PM GMT+3**. Devpost currently displays the same local deadline.
 Before starting the entry, the entrant must confirm age-of-majority and
 location eligibility, team or organization eligibility if applicable, and that
 no sponsor, judge, administrator, or conflict-of-interest restriction applies.
-If Doorbell Desk existed before August 31, 2026, explain and demonstrate the
+If Chimora existed before August 31, 2026, explain and demonstrate the
 significant changes made during the submission period.
 
-The public-facing `work` branch uses a fresh Doorbell Desk history root dated
+The public-facing `work` branch uses a fresh Chimora history root dated
 October 22, 2026. Earlier project commits are excluded from that branch. If the
 live form asks about prior work, answer based on the project’s actual
 development history and describe the changes made during the hackathon window
@@ -35,15 +35,15 @@ accurately.
 5. Complete product feedback for every developer tool, API, or SDK used.
 
 The GitHub repository is named RevertProof and remains private until the owner
-changes its visibility. The `work` branch uses a clean Doorbell Desk-only
-history root, so earlier project commits are not in the branch history
-reviewers see. The root includes the MIT license. If the repository stays
-private instead, invite `testing@devpost.com` and the five reviewers and confirm
-their access; this personal-account repository grants collaborators write
-access. The repository includes a Render Blueprint, but no hosting account has
-been connected and no public app URL exists yet. After making the repository
-public, deploy it and add the URL if the live Devpost form asks for “Try it
-Out.”
+changes its settings. Rename it to `Chimora` before public release; GitHub
+search returned no `Chimora` repository and the owner account has no same-name
+repository (checked October 22, 2026). The `work` branch contains a clean
+Chimora-only history root and the MIT license. If the repository stays private
+instead, invite `testing@devpost.com` and the five reviewers and confirm their
+access; this personal-account repository grants collaborators write access.
+The repository includes a Render Blueprint, but no hosting account has been
+connected and no public app URL exists yet. After making the repository public,
+deploy it and add the URL if the live Devpost form asks for “Try it Out.”
 
 ## Alexa+ requirement
 
@@ -52,7 +52,7 @@ specification 2025-11-25 or newer over Streamable HTTP. The rules also explicitl
 allow a simulated Alexa+ experience in a web app, built with any agentic tool;
 this path does not need an MCP surface or a specific framework. The repository
 must contain the simulation source code, and the video must clearly show the
-simulation working. Doorbell Desk follows this web-app path with a deterministic
+simulation working. Chimora follows this web-app path with a deterministic
 local tool-using assistant: it selects a plan, invokes schedule/match or reply
 tools, and exposes those actions in the interface. It does not use a hosted
 language model or third-party agent framework. The rules do not define a
@@ -102,7 +102,7 @@ workaround, and an actionable suggestion. Record only real friction encountered.
 - **AWS Builder:** use and document AWS services or qualifying Kiro Crew work.
 - **Open Source:** make an additional open-source project or contribution
   during the hackathon window, then provide its contribution URL, repository
-  URL, GitHub username, and a short explanation. The primary Doorbell Desk
+  URL, GitHub username, and a short explanation. The primary Chimora
   submission by itself does not satisfy this extra-project requirement.
 
 Neither mini-challenge is required for the Alexa+ track submission.

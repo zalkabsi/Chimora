@@ -3,81 +3,81 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f3f5f0">
+  <meta name="theme-color" content="#0a1220">
   <meta name="description" content="A calm, voice-first front desk for appointment businesses.">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <title>Doorbell Desk — Northstar Repair Studio</title>
+  <title>Chimora — Northstar Repair Studio</title>
   <style>
     :root {
-      color-scheme: light; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      --ink:#152d2a; --muted:#65736e; --soft:#89958e; --line:#e2e9e2; --paper:#fbfcf9; --canvas:#f3f5f0;
-      --green:#176b59; --green-dark:#124f43; --green-pale:#e6f2eb; --orange:#a65d37; --orange-pale:#fff0e5;
-      --shadow:0 14px 35px rgba(22,54,47,.055),0 2px 7px rgba(22,54,47,.035);
+      color-scheme: dark; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --ink:#edf2f8; --muted:#a9b7c6; --soft:#8497ad; --line:#2b3b50; --paper:#111b2a; --canvas:#0a1220;
+      --accent:#4bd6c2; --accent-dark:#1c9f91; --accent-soft:#193840; --amber:#e8a85e; --amber-soft:#3e2e21;
+      --shadow:0 18px 44px rgba(0,0,0,.25),0 2px 8px rgba(0,0,0,.18);
       font-synthesis:none; text-rendering:optimizeLegibility;
     }
     *{box-sizing:border-box} body{margin:0;background:var(--canvas);color:var(--ink)} button,input,textarea{font:inherit}
-    button{cursor:pointer} button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #176b5955;outline-offset:2px}
-    .topbar{height:68px;padding:0 max(24px,calc((100vw - 1240px)/2));display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e7ebe6;background:#fbfcf9}
+    button{cursor:pointer} button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #4bd6c244;outline-offset:2px}
+    .topbar{height:68px;padding:0 max(24px,calc((100vw - 1240px)/2));display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #2b3b50;background:#111b2a}
     .brand{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:770;letter-spacing:-.035em}
-    .brand-mark{width:33px;height:33px;border-radius:11px;display:grid;place-items:center;background:var(--green);color:white}
-    .brand-mark svg{width:18px;height:18px}.brand small{color:#7e8a84;font-size:9px;font-weight:750;letter-spacing:.14em;margin-left:3px}
+    .brand-mark{width:33px;height:33px;border-radius:11px;display:grid;place-items:center;background:var(--accent);color:white}
+    .brand-mark svg{width:18px;height:18px}.brand small{color:#8293a9;font-size:9px;font-weight:750;letter-spacing:.14em;margin-left:3px}
     .top-meta{display:flex;align-items:center;gap:17px;color:var(--muted);font-size:11px}
-    .demo-pill{display:flex;align-items:center;gap:7px;padding:7px 10px;background:#edf5ef;border-radius:20px;color:#346b54;font-weight:700}
-    .live-dot{width:7px;height:7px;border-radius:50%;background:#5aaa75;box-shadow:0 0 0 3px #5aaa7519}
+    .demo-pill{display:flex;align-items:center;gap:7px;padding:7px 10px;background:#142f39;border-radius:20px;color:#7cd7c3;font-weight:700}
+    .live-dot{width:7px;height:7px;border-radius:50%;background:#69d49e;box-shadow:0 0 0 3px #5bd49b33}
     .shell{max-width:1240px;padding:27px 25px;margin:0 auto}
-    .hero{min-height:211px;display:flex;align-items:center;justify-content:space-between;padding:30px 38px;border:1px solid #e2e9e2;border-radius:22px;background:radial-gradient(circle at 78% 16%,#edf6df 0,transparent 28%),linear-gradient(110deg,#fff 5%,#f9fbf4 75%,#f2f6e8);box-shadow:var(--shadow);position:relative;overflow:hidden}
-    .hero:after{content:"";position:absolute;width:240px;height:240px;border:1px solid #dce8d7;border-radius:50%;right:105px;top:-127px;box-shadow:0 0 0 23px #dce8d718,0 0 0 48px #dce8d715}
-    .hero-copy{max-width:680px;position:relative;z-index:1}.eyebrow{color:var(--green);font-size:9px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;margin:0 0 12px}
-    h1{margin:0;font-weight:690;font-size:clamp(29px,3.4vw,42px);line-height:1.08;letter-spacing:-.055em}h1 em{color:var(--green);font-style:normal}
+    .hero{min-height:211px;display:flex;align-items:center;justify-content:space-between;padding:30px 38px;border:1px solid #2b3b50;border-radius:22px;background:radial-gradient(circle at 78% 16%,#1c3039 0,transparent 28%),linear-gradient(110deg,#172334 5%,#141f2e 75%,#15253a);box-shadow:var(--shadow);position:relative;overflow:hidden}
+    .hero:after{content:"";position:absolute;width:240px;height:240px;border:1px solid #445a6e;border-radius:50%;right:105px;top:-127px;box-shadow:0 0 0 23px #445a6e24,0 0 0 48px #445a6e20}
+    .hero-copy{max-width:680px;position:relative;z-index:1}.eyebrow{color:var(--accent);font-size:9px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;margin:0 0 12px}
+    h1{margin:0;font-weight:690;font-size:clamp(29px,3.4vw,42px);line-height:1.08;letter-spacing:-.055em}h1 em{color:var(--accent);font-style:normal}
     .hero-copy>p:last-child{color:var(--muted);font-size:13px;line-height:1.6;max-width:580px;margin:12px 0 0}
-    .clock-card{width:192px;min-width:192px;padding:15px 17px;border:1px solid #e2e9dc;background:#ffffffbb;border-radius:16px;position:relative;z-index:1}
+    .clock-card{width:192px;min-width:192px;padding:15px 17px;border:1px solid #2b3b50;background:#111c2acc;border-radius:16px;position:relative;z-index:1}
     .clock-label{color:var(--soft);font-size:9px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.clock-value{display:block;margin:6px 0 1px;font-size:31px;letter-spacing:-.06em;font-weight:720}
-    .clock-date{color:var(--muted);font-size:10px}.privacy-chip{margin-top:12px;display:inline-flex;gap:5px;align-items:center;color:#3c785b;background:#eef6e7;border-radius:20px;padding:6px 8px;font-size:8px;font-weight:740}
+    .clock-date{color:var(--muted);font-size:10px}.privacy-chip{margin-top:12px;display:inline-flex;gap:5px;align-items:center;color:#9ee6c6;background:#183a35;border-radius:20px;padding:6px 8px;font-size:8px;font-weight:740}
     .privacy-chip svg{width:11px;height:11px}
-    .simulator{margin:16px 0;padding:14px 16px;background:#f8faf7;border:1px solid var(--line);border-radius:16px;display:flex;align-items:center;justify-content:space-between;gap:18px}
-    .sim-copy{display:flex;align-items:center;gap:11px;min-width:230px}.bell-icon{width:37px;height:37px;display:grid;place-items:center;border-radius:12px;background:#ffede1;color:#a8572d;flex:none}.bell-icon svg{width:18px;height:18px}
+    .simulator{margin:16px 0;padding:14px 16px;background:#121f30;border:1px solid var(--line);border-radius:16px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .sim-copy{display:flex;align-items:center;gap:11px;min-width:230px}.bell-icon{width:37px;height:37px;display:grid;place-items:center;border-radius:12px;background:#392d25;color:#ed9b5a;flex:none}.bell-icon svg{width:18px;height:18px}
     .sim-title{font-size:11px;font-weight:760}.sim-sub{margin-top:3px;font-size:9px;color:var(--muted)}
     .scenario-buttons{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}
-    .scenario-btn{min-height:36px;display:inline-flex;align-items:center;gap:7px;border:1px solid #dae3dc;border-radius:10px;padding:0 11px;color:#3f5149;background:white;font-size:10px;font-weight:680;transition:transform .15s,border-color .15s}
-    .scenario-btn:hover{border-color:#94b5a0;transform:translateY(-1px)}.scenario-btn:disabled{opacity:.6;cursor:progress}
-    .scenario-btn svg{width:14px;height:14px;color:var(--green)}.scenario-btn.unknown svg{color:#b06c3c}
+    .scenario-btn{min-height:36px;display:inline-flex;align-items:center;gap:7px;border:1px solid #32445a;border-radius:10px;padding:0 11px;color:#d4e0ea;background:#172334;font-size:10px;font-weight:680;transition:transform .15s,border-color .15s}
+    .scenario-btn:hover{border-color:#59a49a;transform:translateY(-1px)}.scenario-btn:disabled{opacity:.6;cursor:progress}
+    .scenario-btn svg{width:14px;height:14px;color:var(--accent)}.scenario-btn.unknown svg{color:#dba46b}
     .columns{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(360px,.88fr);gap:16px;align-items:start}.stack{display:grid;gap:16px}
     .card{background:var(--paper);border:1px solid var(--line);border-radius:17px;box-shadow:var(--shadow)}
     .card-head{display:flex;align-items:center;justify-content:space-between;padding:17px 18px 12px}.card-title{margin:0;font-size:12px;font-weight:760}
-    .card-subtitle{color:var(--soft);font-size:9px;margin-top:3px}.count{color:#60746a;background:#eef3ed;border-radius:20px;padding:5px 8px;font-size:9px;font-weight:740}
-    .arrival-list{padding:0 12px 11px}.empty{text-align:center;padding:22px 16px;color:var(--muted)}.empty strong{display:block;color:#47564f;font-size:11px}.empty span{display:block;max-width:280px;margin:6px auto 0;font-size:9px;line-height:1.5}
-    .empty-ring{width:40px;height:40px;margin:0 auto 10px;border-radius:14px;background:#f0f3ed;color:#74887d;display:grid;place-items:center}.empty-ring svg{width:19px;height:19px}
-    .arrival{display:grid;grid-template-columns:35px minmax(0,1fr) auto;gap:10px;align-items:start;padding:12px 9px;border-bottom:1px solid #edf0ec}.arrival:last-child{border:0}
-    .arrival-symbol{width:34px;height:34px;display:grid;place-items:center;border-radius:12px;background:var(--green-pale);color:var(--green)}.arrival-symbol.unknown{background:var(--orange-pale);color:var(--orange)}.arrival-symbol svg{width:17px;height:17px}
-    .arrival-name{font-size:10px;font-weight:760;line-height:1.4}.arrival-detail{margin-top:3px;color:var(--muted);font-size:9px;line-height:1.45}.basis{margin-top:5px;color:#607269;font-size:8px}
-    .badge{white-space:nowrap;border-radius:20px;padding:5px 7px;background:#e8f3ec;color:#3f7755;font-size:8px;font-weight:740}.badge.unknown{background:#fff1e7;color:#9c5d37}
-    .appointment-list{padding:0 17px 10px}.appointment{display:grid;grid-template-columns:63px 1fr auto;align-items:center;gap:10px;min-height:53px;border-bottom:1px solid #edf0ec}.appointment:last-child{border:0}
-    .apt-time{font-variant-numeric:tabular-nums;font-size:9px;font-weight:730;color:#4e6157}.apt-name{font-size:10px;font-weight:740}.apt-service{margin-top:3px;font-size:8px;color:var(--muted)}
-    .apt-status{font-size:8px;font-weight:700;border-radius:20px;padding:5px 7px;color:#718077;background:#f0f3ef}.apt-status.upcoming{color:#58806a;background:#edf5ef}.apt-status.arrived{color:#176b59;background:#e1f2e8}
-    .assistant{overflow:hidden}.assistant-head{padding:16px 17px 13px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #edf0ec}
-    .assistant-identity{display:flex;align-items:center;gap:9px}.orb{width:34px;height:34px;border-radius:12px;display:grid;place-items:center;color:white;background:linear-gradient(140deg,#1f806a,#164d43)}.orb svg{width:17px;height:17px}
-    .assistant-name{font-size:11px;font-weight:770}.assistant-caption{color:var(--muted);font-size:8px;margin-top:3px}.ready{display:inline-flex;gap:5px;align-items:center;color:#4d7b5e;font-size:8px;font-weight:700}.ready i{width:6px;height:6px;border-radius:50%;background:#61a877}
+    .card-subtitle{color:var(--soft);font-size:9px;margin-top:3px}.count{color:#aab9c6;background:#223348;border-radius:20px;padding:5px 8px;font-size:9px;font-weight:740}
+    .arrival-list{padding:0 12px 11px}.empty{text-align:center;padding:22px 16px;color:var(--muted)}.empty strong{display:block;color:#bdc9d4;font-size:11px}.empty span{display:block;max-width:280px;margin:6px auto 0;font-size:9px;line-height:1.5}
+    .empty-ring{width:40px;height:40px;margin:0 auto 10px;border-radius:14px;background:#1e2b3d;color:#71879d;display:grid;place-items:center}.empty-ring svg{width:19px;height:19px}
+    .arrival{display:grid;grid-template-columns:35px minmax(0,1fr) auto;gap:10px;align-items:start;padding:12px 9px;border-bottom:1px solid #27364a}.arrival:last-child{border:0}
+    .arrival-symbol{width:34px;height:34px;display:grid;place-items:center;border-radius:12px;background:var(--accent-soft);color:var(--accent)}.arrival-symbol.unknown{background:var(--amber-soft);color:var(--amber)}.arrival-symbol svg{width:17px;height:17px}
+    .arrival-name{font-size:10px;font-weight:760;line-height:1.4}.arrival-detail{margin-top:3px;color:var(--muted);font-size:9px;line-height:1.45}.basis{margin-top:5px;color:#aab9c6;font-size:8px}
+    .badge{white-space:nowrap;border-radius:20px;padding:5px 7px;background:#1b3a40;color:#8cd7b1;font-size:8px;font-weight:740}.badge.unknown{background:#3b2c22;color:#d69c5c}
+    .appointment-list{padding:0 17px 10px}.appointment{display:grid;grid-template-columns:63px 1fr auto;align-items:center;gap:10px;min-height:53px;border-bottom:1px solid #27364a}.appointment:last-child{border:0}
+    .apt-time{font-variant-numeric:tabular-nums;font-size:9px;font-weight:730;color:#b6c3d0}.apt-name{font-size:10px;font-weight:740}.apt-service{margin-top:3px;font-size:8px;color:var(--muted)}
+    .apt-status{font-size:8px;font-weight:700;border-radius:20px;padding:5px 7px;color:#93a4b5;background:#26364a}.apt-status.upcoming{color:#9be1b7;background:#142f39}.apt-status.arrived{color:#4bd6c2;background:#193c3e}
+    .assistant{overflow:hidden}.assistant-head{padding:16px 17px 13px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #27364a}
+    .assistant-identity{display:flex;align-items:center;gap:9px}.orb{width:34px;height:34px;border-radius:12px;display:grid;place-items:center;color:white;background:linear-gradient(140deg,#36aa9a,#187d74)}.orb svg{width:17px;height:17px}
+    .assistant-name{font-size:11px;font-weight:770}.assistant-caption{color:var(--muted);font-size:8px;margin-top:3px}.ready{display:inline-flex;gap:5px;align-items:center;color:#9fe3ae;font-size:8px;font-weight:700}.ready i{width:6px;height:6px;border-radius:50%;background:#83dba1}
     .conversation{min-height:142px;max-height:230px;overflow:auto;padding:14px 15px 3px}.intro{color:var(--muted);font-size:9px;line-height:1.55;margin:0 0 10px}
-    .bubble{width:fit-content;max-width:95%;margin:7px 0;padding:9px 11px;font-size:9px;line-height:1.55}.bubble.assistant-msg{color:#41564c;background:#f0f4ef;border-radius:3px 12px 12px 12px}.bubble.user-msg{margin-left:auto;color:white;background:#256e5e;border-radius:12px 3px 12px 12px}
-    .prompts{display:flex;gap:6px;overflow:auto;padding:8px 14px}.prompt{flex:none;border:1px solid var(--line);border-radius:20px;background:white;padding:6px 9px;font-size:8px;color:#66756c}.prompt:hover{border-color:#94b5a0;color:var(--green)}
-    .ask-form{display:flex;gap:7px;padding:0 13px 13px}.ask-field{display:flex;align-items:center;flex:1;gap:7px;border:1px solid #e0e6e0;border-radius:11px;background:white;padding:0 9px;min-width:0}
-    .ask-field:focus-within{border-color:#8eb3a1;box-shadow:0 0 0 3px #176b5911}.ask-field input{width:100%;height:40px;min-width:0;border:0;outline:0;color:var(--ink);background:transparent;font-size:9px}.ask-field input::placeholder{color:#98a29c}
-    .mic{width:25px;height:29px;border:0;background:transparent;color:#7e8d84;display:grid;place-items:center;padding:0}.mic svg{width:15px;height:15px}.mic.listening{color:#b65645;animation:pulse 1s infinite}@keyframes pulse{50%{opacity:.4}}
-    .send{width:40px;height:40px;flex:none;display:grid;place-items:center;border:0;border-radius:11px;color:white;background:var(--green)}.send:hover,.approve:hover{background:var(--green-dark)}.send svg{width:15px;height:15px}
+    .bubble{width:fit-content;max-width:95%;margin:7px 0;padding:9px 11px;font-size:9px;line-height:1.55}.bubble.assistant-msg{color:#b7c5d3;background:#1c2a3c;border-radius:3px 12px 12px 12px}.bubble.user-msg{margin-left:auto;color:white;background:#44c9b7;border-radius:12px 3px 12px 12px}
+    .prompts{display:flex;gap:6px;overflow:auto;padding:8px 14px}.prompt{flex:none;border:1px solid var(--line);border-radius:20px;background:#172334;padding:6px 9px;font-size:8px;color:#acbbc8}.prompt:hover{border-color:#59a49a;color:var(--accent)}
+    .ask-form{display:flex;gap:7px;padding:0 13px 13px}.ask-field{display:flex;align-items:center;flex:1;gap:7px;border:1px solid #32445a;border-radius:11px;background:#172334;padding:0 9px;min-width:0}
+    .ask-field:focus-within{border-color:#4d8f8e;box-shadow:0 0 0 3px #4bd6c222}.ask-field input{width:100%;height:40px;min-width:0;border:0;outline:0;color:var(--ink);background:transparent;font-size:9px}.ask-field input::placeholder{color:#72859b}
+    .mic{width:25px;height:29px;border:0;background:transparent;color:#a1b1c2;display:grid;place-items:center;padding:0}.mic svg{width:15px;height:15px}.mic.listening{color:#ed9584;animation:pulse 1s infinite}@keyframes pulse{50%{opacity:.4}}
+    .send{width:40px;height:40px;flex:none;display:grid;place-items:center;border:0;border-radius:11px;color:white;background:var(--accent)}.send:hover,.approve:hover{background:var(--accent-dark)}.send svg{width:15px;height:15px}
     .reply-head{padding:14px 16px 10px;display:flex;align-items:center;justify-content:space-between}.reply-title{font-size:11px;font-weight:770}
-    .owner-badge{display:inline-flex;gap:5px;align-items:center;color:#557968;background:#edf5ef;border-radius:20px;padding:5px 7px;font-size:8px;font-weight:760;text-transform:uppercase;letter-spacing:.05em}.owner-badge svg{width:10px;height:10px}
+    .owner-badge{display:inline-flex;gap:5px;align-items:center;color:#9cb9b5;background:#142f39;border-radius:20px;padding:5px 7px;font-size:8px;font-weight:760;text-transform:uppercase;letter-spacing:.05em}.owner-badge svg{width:10px;height:10px}
     .reply-body{padding:0 15px 14px}.reply-context{color:var(--muted);font-size:8px;margin:0 0 7px;line-height:1.45}
-    .reply-text{width:100%;min-height:70px;resize:vertical;border:1px solid var(--line);border-radius:10px;background:white;color:#42584e;padding:9px;font-size:9px;line-height:1.5}.reply-text:disabled{background:#f4f6f2;color:#66756c}
-    .reply-actions{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:8px}.delivery-note{max-width:185px;color:#87938c;font-size:7px;line-height:1.4}
-    .buttons{display:flex;gap:5px;align-items:center}.plain{border:0;background:none;color:#7c8981;font-size:8px;font-weight:700;padding:7px}.approve{border:0;color:white;background:var(--green);border-radius:9px;min-height:32px;padding:0 10px;font-size:8px;font-weight:750}
-    .approved{color:#34734e;background:#edf6ec;border-radius:9px;padding:9px;font-size:8px;line-height:1.5}
-    .activity-list{padding:0 15px 8px}.tool-call{padding:7px 0;display:grid;grid-template-columns:19px 1fr;gap:8px;border-top:1px solid #edf0ec}
-    .tool-icon{width:19px;height:19px;display:grid;place-items:center;border-radius:7px;background:#eff3ef;color:#577264}.tool-icon svg{width:11px;height:11px}
-    .tool-row{display:flex;align-items:center;justify-content:space-between}.tool-name{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#3c6051;font-size:8px;font-weight:700}.tool-result{color:#78857d;font-size:8px;line-height:1.4;margin-top:3px}.tool-time{color:#9aa39d;font-size:7px;margin-left:8px}.tool-empty{padding:7px 0 10px;color:#8b9790;font-size:8px}
-    .plan-tools{display:block;margin-top:3px;color:#476d5d;font-weight:700}
-    .guardrail{display:flex;align-items:flex-start;gap:8px;padding:11px 13px;border:1px solid var(--line);border-radius:12px;color:#60736a;background:#f7faf6;font-size:8px;line-height:1.5}
-    .guardrail svg{width:13px;height:13px;color:#438263;flex:none;margin-top:1px}.footer{display:flex;align-items:center;justify-content:space-between;padding:18px 2px 2px;color:#8b9690;font-size:8px}.reset{border:0;color:#6c7d73;background:none;font-size:8px;font-weight:700}.reset:hover{color:#ad5f43}
-    .toast{position:fixed;bottom:20px;left:50%;transform:translate(-50%,15px);opacity:0;pointer-events:none;padding:10px 14px;border-radius:10px;color:white;background:#1a3931;box-shadow:var(--shadow);font-size:10px;transition:.2s;z-index:5}.toast.show{opacity:1;transform:translate(-50%,0)}
+    .reply-text{width:100%;min-height:70px;resize:vertical;border:1px solid var(--line);border-radius:10px;background:#172334;color:#d5e1ec;padding:9px;font-size:9px;line-height:1.5}.reply-text:disabled{background:#182435;color:#acbbc8}
+    .reply-actions{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:8px}.delivery-note{max-width:185px;color:#8293a9;font-size:7px;line-height:1.4}
+    .buttons{display:flex;gap:5px;align-items:center}.plain{border:0;background:none;color:#9babbc;font-size:8px;font-weight:700;padding:7px}.approve{border:0;color:white;background:var(--accent);border-radius:9px;min-height:32px;padding:0 10px;font-size:8px;font-weight:750}
+    .approved{color:#9ce6b4;background:#183833;border-radius:9px;padding:9px;font-size:8px;line-height:1.5}
+    .activity-list{padding:0 15px 8px}.tool-call{padding:7px 0;display:grid;grid-template-columns:19px 1fr;gap:8px;border-top:1px solid #27364a}
+    .tool-icon{width:19px;height:19px;display:grid;place-items:center;border-radius:7px;background:#25364a;color:#9cb7ae}.tool-icon svg{width:11px;height:11px}
+    .tool-row{display:flex;align-items:center;justify-content:space-between}.tool-name{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#a3bcbe;font-size:8px;font-weight:700}.tool-result{color:#96a8ba;font-size:8px;line-height:1.4;margin-top:3px}.tool-time{color:#8395ab;font-size:7px;margin-left:8px}.tool-empty{padding:7px 0 10px;color:#8193aa;font-size:8px}
+    .plan-tools{display:block;margin-top:3px;color:#86cdb7;font-weight:700}
+    .guardrail{display:flex;align-items:flex-start;gap:8px;padding:11px 13px;border:1px solid var(--line);border-radius:12px;color:#aab9c6;background:#111e2c;font-size:8px;line-height:1.5}
+    .guardrail svg{width:13px;height:13px;color:#82d9bb;flex:none;margin-top:1px}.footer{display:flex;align-items:center;justify-content:space-between;padding:18px 2px 2px;color:#9baabd;font-size:8px}.reset{border:0;color:#a5b5c4;background:none;font-size:8px;font-weight:700}.reset:hover{color:#ec9a6b}
+    .toast{position:fixed;bottom:20px;left:50%;transform:translate(-50%,15px);opacity:0;pointer-events:none;padding:10px 14px;border-radius:10px;color:white;background:#132a35;box-shadow:var(--shadow);font-size:10px;transition:.2s;z-index:5}.toast.show{opacity:1;transform:translate(-50%,0)}
     @media(max-width:930px){.shell{padding:21px}.columns{grid-template-columns:minmax(0,1fr) minmax(330px,.9fr);gap:13px}.hero{padding:27px}.simulator{align-items:flex-start;flex-direction:column}.scenario-buttons{justify-content:flex-start}}
     @media(max-width:720px){.topbar{height:60px;padding:0 16px}.brand small,.top-meta>span:last-child{display:none}.shell{padding:15px 13px 21px}.hero{min-height:0;padding:22px 19px}.hero-copy>p:last-child{font-size:11px}.clock-card{width:auto;min-width:125px;padding:11px;margin-left:8px}.clock-value{font-size:23px}.clock-date{font-size:8px}.columns{grid-template-columns:1fr}.right-stack{grid-row:1}}
     @media(max-width:500px){.hero{display:block}.clock-card{display:flex;align-items:center;gap:8px;margin:15px 0 0;width:fit-content;min-width:0}.clock-value{margin:0;font-size:21px}.clock-label,.clock-date{display:none}.privacy-chip{margin:0}.scenario-buttons{display:grid;grid-template-columns:1fr 1fr;width:100%}.scenario-btn{justify-content:center;padding:0 5px;font-size:8px}.scenario-btn:last-child{grid-column:span 2}.sim-copy{min-width:0}.top-meta{gap:0}.appointment{grid-template-columns:57px 1fr auto}.arrival{grid-template-columns:32px minmax(0,1fr) auto;gap:8px}.badge{font-size:7px}}
@@ -88,7 +88,7 @@
   <header class="topbar">
     <div class="brand">
       <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 11.5a7 7 0 0 1 14 0v5l1.5 2H3.5l1.5-2v-5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9.5 21h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
-      Doorbell Desk <small>STUDIO FRONT DESK</small>
+      Chimora <small>STUDIO FRONT DESK</small>
     </div>
     <div class="top-meta"><span class="demo-pill"><i class="live-dot"></i> Alexa+ track · simulated web app</span><span>Northstar Repair Studio</span></div>
   </header>
@@ -97,7 +97,7 @@
       <div class="hero-copy">
         <p class="eyebrow">Northstar Repair Studio &nbsp;·&nbsp; Owner view</p>
         <h1 id="page-title">Be present with every<br><em>person at your door.</em></h1>
-        <p>A calm front desk for the moments your hands are busy. Doorbell Desk checks the day’s bookings, explains who may be waiting, and gives you the final say on every reply.</p>
+        <p>A calm front desk for the moments your hands are busy. Chimora checks the day’s bookings, explains who may be waiting, and gives you the final say on every reply.</p>
       </div>
       <div class="clock-card" aria-label="Simulated local time">
         <span class="clock-label">Demo clock</span><strong class="clock-value" id="clock">2:58 PM</strong><span class="clock-date" id="date-label">Today</span>
@@ -126,13 +126,13 @@
       <div class="stack right-stack">
         <section class="card assistant" aria-labelledby="assistant-title">
           <div class="assistant-head">
-            <div class="assistant-identity"><span class="orb" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 12c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8c-1.4 0-2.7-.3-3.8-1L4 20l1-4.2c-.6-1.1-1-2.4-1-3.8Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></svg></span><div><div class="assistant-name" id="assistant-title">Ask Doorbell Desk</div><div class="assistant-caption">Local tool-using assistant · simulated experience</div></div></div>
+            <div class="assistant-identity"><span class="orb" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 12c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8c-1.4 0-2.7-.3-3.8-1L4 20l1-4.2c-.6-1.1-1-2.4-1-3.8Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></svg></span><div><div class="assistant-name" id="assistant-title">Ask Chimora</div><div class="assistant-caption">Local tool-using assistant · simulated experience</div></div></div>
             <span class="ready"><i></i>Ready</span>
           </div>
           <div class="conversation" id="conversation" aria-live="polite" aria-relevant="additions text"></div>
           <div class="prompts" aria-label="Example questions"><button class="prompt" type="button" data-prompt="Is my 3 o’clock here?">Is my 3 o’clock here?</button><button class="prompt" type="button" data-prompt="What should I tell them?">What should I tell them?</button></div>
           <form class="ask-form" id="ask-form">
-            <div class="ask-field"><input id="question" type="text" maxlength="500" autocomplete="off" placeholder="Ask about an arrival or appointment…" aria-label="Ask Doorbell Desk">
+            <div class="ask-field"><input id="question" type="text" maxlength="500" autocomplete="off" placeholder="Ask about an arrival or appointment…" aria-label="Ask Chimora">
               <button class="mic" id="mic-button" type="button" aria-label="Use voice input" title="Use voice input"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3" stroke="currentColor" stroke-width="1.7"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0M12 18v3m-3 0h6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></button>
             </div>
             <button class="send" type="submit" aria-label="Send question"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m4 5 16 7-16 7 3-7-3-7Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M7 12h13" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
@@ -149,7 +149,7 @@
         <aside class="guardrail"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3 5 6v5c0 4.6 2.9 8.1 7 10 4.1-1.9 7-5.4 7-10V6l-7-3Z" stroke="currentColor" stroke-width="1.7"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span><strong>Owner stays in control.</strong> Matches use only booking details a visitor states. There’s no face recognition, door unlocking, or message delivery; replies are drafts until you approve.</span></aside>
       </div>
     </div>
-    <footer class="footer"><span>Doorbell Desk &nbsp;·&nbsp; Alexa+ track simulation · sample data</span><button class="reset" id="reset-button" type="button">Reset demo</button></footer>
+    <footer class="footer"><span>Chimora &nbsp;·&nbsp; Alexa+ track simulation · sample data</span><button class="reset" id="reset-button" type="button">Reset demo</button></footer>
   </main>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script>
@@ -186,7 +186,7 @@
         const title=match?esc(match.name):"Visitor needs a match";
         const detail=match?esc(match.time)+" · "+esc(match.service):"No name or booking time stated";
         const icon=unknown?'<path d="M12 3 2.8 20h18.4L12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 9v4m0 3h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>':'<path d="m5 12.5 4.5 4.5L19 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>';
-        return '<article class="arrival"><div class="arrival-symbol '+(unknown?"unknown":"")+'" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none">'+icon+'</svg></div><div><div class="arrival-name">'+title+' <span style="font-weight:500;color:#89958e">· '+esc(arrival.arrived_at)+'</span></div><div class="arrival-detail">'+detail+'</div><div class="basis">'+(match?"Matched from visitor-stated booking details":"No identity inferred")+'</div></div><span class="badge '+(unknown?"unknown":"")+'">'+esc(timing)+'</span></article>';
+        return '<article class="arrival"><div class="arrival-symbol '+(unknown?"unknown":"")+'" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none">'+icon+'</svg></div><div><div class="arrival-name">'+title+' <span style="font-weight:500;color:#8497ad">· '+esc(arrival.arrived_at)+'</span></div><div class="arrival-detail">'+detail+'</div><div class="basis">'+(match?"Matched from visitor-stated booking details":"No identity inferred")+'</div></div><span class="badge '+(unknown?"unknown":"")+'">'+esc(timing)+'</span></article>';
       }).join("");
     }
     function renderAppointments() {
@@ -200,7 +200,7 @@
     function renderConversation() {
       const host=$("#conversation");
       if(!appState.messages.length) {
-        host.innerHTML='<p class="intro">Ask naturally about the bookings or a visitor. Doorbell Desk checks the sample schedule and shows how it reached its answer.</p>';
+        host.innerHTML='<p class="intro">Ask naturally about the bookings or a visitor. Chimora checks the sample schedule and shows how it reached its answer.</p>';
         return;
       }
       host.innerHTML=appState.messages.slice(-8).map(function(message) {

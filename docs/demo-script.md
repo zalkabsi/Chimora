@@ -1,15 +1,15 @@
-# Doorbell Desk demo run sheet
+# Chimora demo run sheet
 
 The current upload-ready clip is
-[`submission-assets/doorbell-desk-demo.mp4`](../submission-assets/doorbell-desk-demo.mp4)
+[`submission-assets/chimora-demo.mp4`](../submission-assets/chimora-demo.mp4)
 (64 seconds, with English captions burned in). The matching
-[caption file](../submission-assets/doorbell-desk-demo.srt) is included too.
+[caption file](../submission-assets/chimora-demo.srt) is included too.
 Upload the video publicly to YouTube or Vimeo and add its URL to Devpost.
 
 ## Reset
 
 ~~~sh
-uv run uvicorn doorbell_desk.app:app --reload
+uv run uvicorn chimora.app:app --reload
 ~~~
 
 Open <http://127.0.0.1:8000> and click **Reset demo**.

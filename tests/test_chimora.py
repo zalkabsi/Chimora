@@ -3,7 +3,7 @@ from typing import Any
 
 import httpx
 
-from doorbell_desk.app import app, reset_demo
+from chimora.app import app, reset_demo
 
 
 class LocalClient:
@@ -139,7 +139,7 @@ def test_homepage_serves_the_web_app() -> None:
     favicon = client.get("/favicon.svg")
 
     assert response.status_code == 200
-    assert "Doorbell Desk" in response.text
+    assert "Chimora" in response.text
     assert "Expected arrival" in response.text
     assert favicon.status_code == 200
     assert "<svg" in favicon.text

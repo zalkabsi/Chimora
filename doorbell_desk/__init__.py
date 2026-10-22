@@ -1,1 +1,0 @@
-"""Doorbell Desk demo application."""

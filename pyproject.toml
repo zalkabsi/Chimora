@@ -3,7 +3,7 @@ requires = ["setuptools>=75", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "doorbell-desk"
+name = "chimora"
 version = "0.1.0"
 description = "A voice-first simulated front desk for appointment businesses"
 readme = "README.md"
@@ -22,10 +22,10 @@ dev = [
 ]
 
 [tool.setuptools.packages.find]
-include = ["doorbell_desk*"]
+include = ["chimora*"]
 
 [tool.setuptools.package-data]
-doorbell_desk = ["static/*"]
+chimora = ["static/*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

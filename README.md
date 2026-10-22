@@ -1,8 +1,8 @@
-# Doorbell Desk
+# Chimora
 
 **A voice-first front desk for solo appointment businesses.**
 
-When a visitor arrives while an owner is busy, Doorbell Desk checks a sample
+When a visitor arrives while an owner is busy, Chimora checks a sample
 schedule, explains whether there is a likely appointment match, and drafts a
 polite reply for the owner to review. It is designed as a simulated Alexa+
 experience in a web app, one of the accepted Alexa+ track paths.
@@ -13,7 +13,7 @@ Requirements: Python 3.10 or newer and uv.
 
 ~~~sh
 uv sync --frozen --all-extras
-uv run uvicorn doorbell_desk.app:app --reload
+uv run uvicorn chimora.app:app --reload
 ~~~
 
 Open <http://127.0.0.1:8000>. No account, device, API key, database, or
@@ -24,7 +24,7 @@ studio schedule.
 
 The repository includes a Render Blueprint in [render.yaml](render.yaml).
 After making the repository public, connect it to Render as a Blueprint and
-deploy the `doorbell-desk` web service. Render supplies a public URL and checks
+deploy the `chimora` web service. Render supplies a public URL and checks
 `/api/state` for health. The free service may sleep when idle, so allow for a
 cold start before recording or evaluating the demo. All app data is synthetic
 and stored in memory; a restart resets the sample schedule.
@@ -34,7 +34,7 @@ and stored in memory; a restart resets the sample schedule.
 1. **Expected arrival:** Elena says she has the 3:00 PM appointment and arrives
    at 2:58. Ask “Is my 3 o’clock here?” to see the schedule match and timing.
 2. **Early arrival:** Marcus says he has the 4:00 PM appointment and arrives
-   30 minutes early. Doorbell Desk suggests a wait-or-return reply.
+   30 minutes early. Chimora suggests a wait-or-return reply.
 3. **Unrecognized visitor:** A doorbell event arrives without a stated name or
    booking time. The assistant says it cannot match confidently and suggests
    asking the visitor for details.
@@ -81,6 +81,11 @@ shared with `testing@devpost.com` and all five Amazon reviewers. For a private
 repository, verify that every invitation is accepted. A working demo, a public
 English YouTube/Vimeo video under three minutes, and product feedback are also
 required.
+
+The app is named **Chimora**. The GitHub repository is still named RevertProof;
+rename it to `Chimora` in GitHub repository settings before making it public.
+GitHub repository search found no `Chimora` match, and the owner account has no
+repository with that name (checked October 22, 2026).
 The submission deadline shown by Devpost is October 23, 2026 at 12:00 PM PDT
 (10:00 PM GMT+3).
 

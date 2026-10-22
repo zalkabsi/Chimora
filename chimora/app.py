@@ -381,7 +381,7 @@ def _answer_question(question: str, arrival_id: str | None = None) -> str:
     return answer
 
 
-app = FastAPI(title="Doorbell Desk", version="0.1.0")
+app = FastAPI(title="Chimora", version="0.1.0")
 
 
 @app.get("/", include_in_schema=False)
