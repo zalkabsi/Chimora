@@ -28,4 +28,4 @@ An unknown visitor is not guessed; the assistant asks for details.
 
 8
 00:00:58,000 --> 00:01:04,000
-All data is synthetic. No live Alexa+, Ring, camera, lock, or messaging.
+Synthetic data only; no live Alexa Plus or connected devices.

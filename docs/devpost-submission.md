@@ -15,9 +15,9 @@
 ## Built with
 
 **Python, FastAPI, JavaScript, HTML, CSS, Web Speech API (optional browser input).**
-FFmpeg with its Flite filter is used only to add narration to the submitted demo
-video; it is not part of the app. No hosted AI model, AWS service, Alexa+ SDK,
-Ring API, or MCP server is used.
+Microsoft Edge online text-to-speech and FFmpeg are used only to add narration
+to the submitted demo video; they are not part of the app. No hosted AI model,
+AWS service, Alexa+ SDK, Ring API, or MCP server is used.
 
 ## Short description
 
@@ -67,8 +67,8 @@ It has an English voiceover, burned-in English captions, a separate caption
 file at [`submission-assets/chimora-demo.srt`](../submission-assets/chimora-demo.srt),
 and the matching voiceover script at
 [`submission-assets/chimora-demo-narration.txt`](../submission-assets/chimora-demo-narration.txt).
-The voiceover uses FFmpeg's local Flite `slt` voice; the Bing speech host was
-unreachable from the rendering environment.
+The voiceover uses Microsoft Edge's online `en-US-AriaNeural` voice through
+the `speech.platform.bing.com` endpoint.
 
 1. **0:00–0:11:** Introduce the simulated Alexa+ web experience and trigger an
    expected arrival.
@@ -97,7 +97,7 @@ Complete this section with the entrant’s own experience before submission.
 
 - **Developer tools used:** Alexa+ simulated-experience path; Python, FastAPI,
   a browser-based front end, browser speech recognition when available, and
-  FFmpeg/Flite for the demo narration.
+  Microsoft Edge online text-to-speech with FFmpeg for the demo narration.
 - **What worked well:** Fill in from your actual build experience. Describe
   whether the rules-based tool flow and visible trace helped you demonstrate
   the scenario.

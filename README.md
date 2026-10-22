@@ -52,8 +52,9 @@ The 64-second English demo video is
 includes narration and burned-in captions; the separate
 [caption file](submission-assets/chimora-demo.srt) and
 [voiceover script](submission-assets/chimora-demo-narration.txt) are included.
-The narration is rendered offline with FFmpeg/Flite and is part of the
-recording, not a live voice feature in the app.
+The narration uses the en-US-AriaNeural voice from Microsoft Edge's online
+text-to-speech service. It is part of the recording, not a live voice feature
+in the app.
 
 ## How it works
 

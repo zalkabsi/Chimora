@@ -8,8 +8,8 @@ caption cue in chimora-demo.srt.
 00:25  The owner edits and approves. No message is sent.
 00:34  Marcus arrives thirty minutes early; a wait-or-return reply is suggested.
 00:44  An unknown visitor is not guessed; the assistant asks for details.
-00:58  All data is synthetic. No live Alexa plus, Ring, camera, lock, or messaging.
+00:58  Synthetic data only; no live Alexa Plus or connected devices.
 
-The current voice track was generated offline with FFmpeg's Flite filter
-(slt voice). The speech.platform.bing.com endpoint could not be resolved from
-the rendering environment, so Edge's neural voice was unavailable here.
+The voice track uses Microsoft Edge's online en-US-AriaNeural voice and is
+embedded in the video. The voiceover is a recording only; the app does not
+connect to a live voice service.
