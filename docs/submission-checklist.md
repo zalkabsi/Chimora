@@ -34,15 +34,12 @@ accurately.
    URL to Devpost.
 5. Complete product feedback for every developer tool, API, or SDK used.
 
-The GitHub repository is already named `Chimora` and is currently private
-(checked October 22, 2026). The `work` branch contains a clean Chimora-only
-history root and the MIT license. Before submission, make the repo public or
-keep it private and invite `testing@devpost.com` plus the five reviewers, then
-confirm their access. This personal-account repository grants collaborators
-write access.
-The repository includes a Render Blueprint, but no hosting account has been
-connected and no public app URL exists yet. After making the repository public,
-deploy it and add the URL if the live Devpost form asks for “Try it Out.”
+The GitHub repository is named `Chimora` and is public under its MIT license at
+<https://github.com/zalkabsi/Chimora> (checked October 22, 2026). The `work`
+branch contains the clean Chimora-only history root. The repo includes a
+Render Blueprint, but no hosting account has been connected and no public app
+URL exists yet. Deploy it and add the URL if the live Devpost form asks for
+“Try it Out.”
 
 ## Alexa+ requirement
 

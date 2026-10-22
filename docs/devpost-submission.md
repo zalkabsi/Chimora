@@ -85,9 +85,11 @@ music.
 
 ## Try it out
 
+**GitHub repository:** <https://github.com/zalkabsi/Chimora> (public, MIT).
+
 **Public app URL:** pending deployment. The repo includes `render.yaml`; after
-the public repository is ready, deploy the Blueprint and paste the service URL
-here if the live Devpost form requests it.
+connecting the repository to Render, deploy the Blueprint and paste the service
+URL here if the live Devpost form requests it.
 
 ## Product feedback draft
 
@@ -113,14 +115,9 @@ Complete this section with the entrant’s own experience before submission.
 ## Submission fields still requiring the entrant
 
 - Join the hackathon and submit through the entrant’s Devpost account.
-- The GitHub repository is named `Chimora` and is currently private (checked
-  October 22, 2026). Before submission, make it public and verify the MIT
-  license appears, or keep it private and invite
-  `testing@devpost.com`, knmeiss, giolaq,
-  anishamalde, mosesroth, and emersonsklar. Confirm all invitations are
-  accepted. On a personal-account repository, GitHub collaborators receive
-  write access.
-- Add the repository URL after choosing one of those access paths.
+- The GitHub repository is public at
+  <https://github.com/zalkabsi/Chimora>; verify the MIT license appears on its
+  page and paste the repository URL into Devpost.
 - Upload the final demo video publicly to YouTube or Vimeo and add its URL.
 - Replace the product-feedback onboarding placeholder with firsthand feedback.
 - Confirm entrant eligibility and select the Alexa+ track.

@@ -83,9 +83,10 @@ English YouTube/Vimeo video under three minutes, and product feedback are also
 required.
 
 The app and GitHub repository are both named **Chimora**. The repository is
-currently private (checked October 22, 2026). Before submission, either make
-it public under the included MIT license or invite the required Devpost and
-Amazon reviewers and confirm their access.
+public under the included MIT license at
+<https://github.com/zalkabsi/Chimora> (checked October 22, 2026). The narrated
+demo still needs a public YouTube or Vimeo upload before its URL can be added
+to Devpost.
 The submission deadline shown by Devpost is October 23, 2026 at 12:00 PM PDT
 (10:00 PM GMT+3).
 
