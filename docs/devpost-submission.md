@@ -1,4 +1,7 @@
-# Devpost submission draft — Chimora
+# Devpost submission reference — Chimora
+
+**Status:** The entrant reports that the Devpost entry is complete and ready
+to submit. Account-specific URLs and personal feedback are kept in Devpost.
 
 **Primary track:** Alexa+
 **Experience path:** Simulated Alexa+ web app
@@ -79,23 +82,23 @@ the `speech.platform.bing.com` endpoint.
    guess who it is.
 6. **0:58–1:04:** Close on the synthetic data and no-live-integration limits.
 
-Before submission, upload the clip publicly to YouTube or Vimeo and add its
-URL. It is under three minutes and contains no third-party footage, marks, or
-music.
+The clip is publicly uploaded; its YouTube or Vimeo URL is in the Devpost
+entry. It is under three minutes and contains no third-party footage, marks,
+or music.
 
 ## Try it out
 
 **GitHub repository:** <https://github.com/zalkabsi/Chimora> (public, MIT).
 
-**Public app URL:** pending deployment. The repo includes `render.yaml`; after
-connecting the repository to Render, deploy the Blueprint and paste the service
-URL here if the live Devpost form requests it.
+**Public app URL:** The judge-facing URL is recorded in the Devpost entry if
+the form requests a “Try it Out” link. The repo includes `render.yaml` for the
+service deployment.
 
-## Product feedback draft
+## Product feedback reference
 
-The repository supports the factual details below, but it does not record the
-entrant’s personal impressions. Use the suggested observations only if they
-match the actual build experience.
+The repository supports the factual details below. The entrant’s completed
+personal feedback is in Devpost; this file keeps technical context for the
+public repository.
 
 - **Developer tools used:** Alexa+ simulated-experience path; Python, FastAPI,
   a browser-based front end, browser speech recognition when available, and
@@ -110,27 +113,16 @@ match the actual build experience.
 - **Onboarding (repo-backed facts):** The README asks for Python 3.10+ and `uv`,
   then gives two run commands; no account or API key is needed. The repo does
   not record how clear the official Alexa+ resources felt to the entrant.
-- **Would you build with Alexa+ again?** No answer is recorded in the repo;
-  enter the entrant’s own answer and reason.
+- **Would you build with Alexa+ again?** The entrant’s response is in Devpost.
 - **AWS services:** The app configuration and code document no AWS service use.
-  Confirm that is accurate for the full build before submitting.
+  The Devpost entry contains the entrant’s response for the full build.
 - **Friction log:** No actual friction log is present. Do not invent one.
 
-## Submission fields still requiring the entrant
+## Final submission status
 
-- Join the hackathon and submit through the entrant’s Devpost account.
-- The GitHub repository is public at
-  <https://github.com/zalkabsi/Chimora>; verify the MIT license appears on its
-  page and paste the repository URL into Devpost.
-- Upload the final demo video publicly to YouTube or Vimeo and add its URL.
-- Confirm the repository-backed product feedback matches the entrant’s actual
-  experience; add the personal “build again” answer and any real onboarding
-  friction.
-- Confirm entrant eligibility and select the Alexa+ track.
-- Describe the local deterministic tool-using assistant accurately; do not
-  call it a hosted AI model or a live Alexa+ integration.
-- Deploy the app and replace the pending “Try it Out” URL if the event form
-  requires a public test link.
+The entrant reports that the Devpost fields, eligibility confirmations,
+repository and video links, track selection, and product feedback are complete.
+Submit the entry from the entrant’s Devpost account after the final review.
 
 ## Sources
 

@@ -23,11 +23,10 @@ studio schedule.
 ## Deploy a judge-accessible demo
 
 The repository includes a Render Blueprint in [render.yaml](render.yaml).
-After making the repository public, connect it to Render as a Blueprint and
-deploy the `chimora` web service. Render supplies a public URL and checks
-`/api/state` for health. The free service may sleep when idle, so allow for a
-cold start before recording or evaluating the demo. All app data is synthetic
-and stored in memory; a restart resets the sample schedule.
+If the Devpost entry includes a “Try it Out” link, use that judge-facing app
+URL. Render checks `/api/state` for health. The free service may sleep when
+idle, so allow for a cold start when opening it. All app data is synthetic and
+stored in memory; a restart resets the sample schedule.
 
 ## Try the three arrival scenarios
 
@@ -95,9 +94,8 @@ required.
 
 The app and GitHub repository are both named **Chimora**. The repository is
 public under the included MIT license at
-<https://github.com/zalkabsi/Chimora> (checked October 22, 2026). The narrated
-demo still needs a public YouTube or Vimeo upload before its URL can be added
-to Devpost.
+<https://github.com/zalkabsi/Chimora> (checked October 23, 2026). The narrated
+demo is uploaded publicly; its video URL is recorded in the Devpost entry.
 The submission deadline shown by Devpost is October 23, 2026 at 12:00 PM PDT
 (10:00 PM GMT+3).
 

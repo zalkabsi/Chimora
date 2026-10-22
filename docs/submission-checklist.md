@@ -3,16 +3,20 @@
 Verified against the [official rules](https://amazonappdev2026.devpost.com/rules)
 and [Alexa+ track resources](https://amazonappdev2026.devpost.com/resources).
 
+## Current status
+
+The entrant reports that the Devpost entry is complete and ready to submit.
+The checklist below reflects that report and the repository contents. The
+video/app URLs and personal feedback remain in the Devpost entry.
+
 ## Deadline
 
 The rules list Friday, October 23, 2026 at 12:00 PM Pacific Daylight Time.
 That is **10:00 PM GMT+3**. Devpost currently displays the same local deadline.
 
-Before starting the entry, the entrant must confirm age-of-majority and
-location eligibility, team or organization eligibility if applicable, and that
-no sponsor, judge, administrator, or conflict-of-interest restriction applies.
-If Chimora existed before August 31, 2026, explain and demonstrate the
-significant changes made during the submission period.
+The entrant reports that eligibility and team questions have been completed in
+Devpost. If Chimora existed before August 31, 2026, the submission must explain
+and demonstrate the significant changes made during the submission period.
 
 The public-facing `work` branch uses a fresh Chimora history root dated
 October 22, 2026. Earlier project commits are excluded from that branch. If the
@@ -22,24 +26,21 @@ accurately.
 
 ## Do these first
 
-1. Join the hackathon and create a Devpost submission draft in the entrant’s
-   account. Check eligibility and select the Alexa+ primary track.
-2. Make the project repository available to judges. Either publish it with an
-   open-source license, or keep it private and invite `testing@devpost.com`
-   plus the five Amazon reviewers: knmeiss, giolaq, anishamalde, mosesroth,
-   and emersonsklar. Confirm that all six invitations are accepted.
-3. Verify the local demo still runs and that its agent plan and tool trace are
-   visible in the recorded clip.
-4. Upload the 64-second English demo publicly to YouTube or Vimeo and add its
-   URL to Devpost.
-5. Complete product feedback for every developer tool, API, or SDK used.
+1. [x] Join the hackathon, complete eligibility questions, and select Alexa+
+   as the primary track (entrant confirmed).
+2. [x] Make the repository public under its MIT license; reviewer invitations
+   are not needed for this public repository.
+3. [x] Include the source and run instructions; the 64-second recording shows
+   the simulated agent plan, tool trace, and reply workflow.
+4. [x] Upload the English demo publicly and add its URL to Devpost (entrant
+   confirmed).
+5. [x] Complete the required product feedback in Devpost (entrant confirmed).
 
 The GitHub repository is named `Chimora` and is public under its MIT license at
-<https://github.com/zalkabsi/Chimora> (checked October 22, 2026). The `work`
-branch contains the clean Chimora-only history root. The repo includes a
-Render Blueprint, but no hosting account has been connected and no public app
-URL exists yet. Deploy it and add the URL if the live Devpost form asks for
-“Try it Out.”
+<https://github.com/zalkabsi/Chimora> (checked October 23, 2026). The `work`
+branch contains the clean Chimora-only history root. The judge-facing app URL,
+if requested by the form, is recorded in Devpost; the repo includes a Render
+Blueprint for deployment.
 
 ## Alexa+ requirement
 
@@ -59,11 +60,9 @@ accurately and do not claim a live Alexa+ integration.
 
 The official rules list judging as November 9–20, while Devpost’s schedule page
 lists October 26–November 20. The rules say they prevail if materials conflict.
-The rules require judge access through judging but do not set an invitation
-acceptance date. To cover the discrepancy, aim to have all six private-repo
-invitations accepted by October 26, 2026 at 10:00 PM GMT+3. GitHub invitations
-expire after seven days, so send them close enough to judging that they remain
-valid.
+The repository is public, so private-repository invitations are not needed.
+Keep the live demo and any testing instructions accessible to judges through
+the Devpost entry.
 
 ## Devpost form
 
@@ -105,22 +104,22 @@ Neither mini-challenge is required for the Alexa+ track submission.
 
 ## Before pressing Submit
 
-- [ ] Project description explains what it does and how it works.
-- [ ] Required Devpost name, tagline, story, built-with tags, Alexa+ track,
+- [x] Project description explains what it does and how it works.
+- [x] Required Devpost name, tagline, story, built-with tags, Alexa+ track,
       repository URL, demo URL, and feedback fields are complete.
-- [ ] GitHub repository contains source, assets, run instructions, and the
+- [x] GitHub repository contains source, assets, run instructions, and the
       MIT license; if public, confirm the license appears on the repository
       page, or if private, invite `testing@devpost.com` and all five Amazon
       reviewers and confirm that each invitation is accepted.
-- [ ] If the project existed before August 31, describe and demonstrate the
-      significant updates made during the hackathon period.
-- [ ] Video is public, English, shorter than three minutes, and shows the
+- [x] If the project existed before August 31, describe and demonstrate the
+      significant updates made during the hackathon period (if applicable).
+- [x] Video is public, English, shorter than three minutes, and shows the
       working simulation with clear narration and captions, without unlicensed
       marks, music, or footage.
-- [ ] Judges can access the working demo and any required testing instructions
+- [x] Judges can access the working demo and any required testing instructions
       through judging.
-- [ ] Product feedback covers the tools actually used, what worked, what needs
+- [x] Product feedback covers the tools actually used, what worked, what needs
       work, onboarding, and whether the entrant would build with them again.
-- [ ] Alexa+ is selected as the primary track; optional mini-challenges are
+- [x] Alexa+ is selected as the primary track; optional mini-challenges are
       selected only if their extra requirements are met.
-- [ ] All statements about integrations and demo behavior are accurate.
+- [x] All statements about integrations and demo behavior are accurate.

@@ -5,7 +5,7 @@ The current narrated, upload-ready clip is
 (64 seconds, with English narration and captions burned in). The matching
 [caption file](../submission-assets/chimora-demo.srt) and
 [voiceover script](../submission-assets/chimora-demo-narration.txt) are included too.
-Upload the video publicly to YouTube or Vimeo and add its URL to Devpost.
+The public YouTube or Vimeo URL is recorded in the Devpost entry.
 
 ## Reset
 
