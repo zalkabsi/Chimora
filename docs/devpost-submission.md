@@ -93,24 +93,28 @@ URL here if the live Devpost form requests it.
 
 ## Product feedback draft
 
-Complete this section with the entrant’s own experience before submission.
+The repository supports the factual details below, but it does not record the
+entrant’s personal impressions. Use the suggested observations only if they
+match the actual build experience.
 
 - **Developer tools used:** Alexa+ simulated-experience path; Python, FastAPI,
   a browser-based front end, browser speech recognition when available, and
   Microsoft Edge online text-to-speech with FFmpeg for the demo narration.
-- **What worked well:** Fill in from your actual build experience. Describe
-  whether the rules-based tool flow and visible trace helped you demonstrate
-  the scenario.
-- **What needs work:** The demo does not validate behavior inside a real Alexa+
-  surface and does not use a hosted language model. Describe what you found
-  difficult while building or reviewing the official resources.
-- **Onboarding:** Describe the resources you actually used and how clear the
-  simulated-experience requirements were. Do not say you tested Alexa+ APIs or
-  SDKs if you did not.
-- **Would you build with Alexa+ again?** Answer based on the entrant’s own
-  experience; do not treat this draft as submitted feedback.
-- **AWS services:** None are currently used by the app. State this accurately
-  if the submission form asks about AWS usage.
+- **What worked well (repo-backed option):** The three arrival scenarios,
+  visible tool trace, and owner-reviewed reply draft make the simulated flow
+  straightforward to demonstrate. Keep this only if it matches your experience.
+- **What needs work (repo-backed facts):** The app is deterministic and local;
+  it does not validate behavior inside a live Alexa+ surface or use a hosted
+  language model. Browser speech input also depends on browser support. Add any
+  build or resource friction only if it actually happened.
+- **Onboarding (repo-backed facts):** The README asks for Python 3.10+ and `uv`,
+  then gives two run commands; no account or API key is needed. The repo does
+  not record how clear the official Alexa+ resources felt to the entrant.
+- **Would you build with Alexa+ again?** No answer is recorded in the repo;
+  enter the entrant’s own answer and reason.
+- **AWS services:** The app configuration and code document no AWS service use.
+  Confirm that is accurate for the full build before submitting.
+- **Friction log:** No actual friction log is present. Do not invent one.
 
 ## Submission fields still requiring the entrant
 
@@ -119,7 +123,9 @@ Complete this section with the entrant’s own experience before submission.
   <https://github.com/zalkabsi/Chimora>; verify the MIT license appears on its
   page and paste the repository URL into Devpost.
 - Upload the final demo video publicly to YouTube or Vimeo and add its URL.
-- Replace the product-feedback onboarding placeholder with firsthand feedback.
+- Confirm the repository-backed product feedback matches the entrant’s actual
+  experience; add the personal “build again” answer and any real onboarding
+  friction.
 - Confirm entrant eligibility and select the Alexa+ track.
 - Describe the local deterministic tool-using assistant accurately; do not
   call it a hosted AI model or a live Alexa+ integration.
