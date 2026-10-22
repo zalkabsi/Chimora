@@ -15,7 +15,9 @@
 ## Built with
 
 **Python, FastAPI, JavaScript, HTML, CSS, Web Speech API (optional browser input).**
-No hosted AI model, AWS service, Alexa+ SDK, Ring API, or MCP server is used.
+FFmpeg with its Flite filter is used only to add narration to the submitted demo
+video; it is not part of the app. No hosted AI model, AWS service, Alexa+ SDK,
+Ring API, or MCP server is used.
 
 ## Short description
 
@@ -59,10 +61,14 @@ implementation exactly and do not claim a live Alexa+ integration.
 
 ## Recorded demo video (64 seconds)
 
-The current upload-ready clip is
+The current narrated, upload-ready clip is
 [`submission-assets/chimora-demo.mp4`](../submission-assets/chimora-demo.mp4).
-It has burned-in English captions and a separate caption file at
-[`submission-assets/chimora-demo.srt`](../submission-assets/chimora-demo.srt).
+It has an English voiceover, burned-in English captions, a separate caption
+file at [`submission-assets/chimora-demo.srt`](../submission-assets/chimora-demo.srt),
+and the matching voiceover script at
+[`submission-assets/chimora-demo-narration.txt`](../submission-assets/chimora-demo-narration.txt).
+The voiceover uses FFmpeg's local Flite `slt` voice; the Bing speech host was
+unreachable from the rendering environment.
 
 1. **0:00–0:11:** Introduce the simulated Alexa+ web experience and trigger an
    expected arrival.
@@ -88,7 +94,8 @@ here if the live Devpost form requests it.
 Complete this section with the entrant’s own experience before submission.
 
 - **Developer tools used:** Alexa+ simulated-experience path; Python, FastAPI,
-  a browser-based front end, and browser speech recognition when available.
+  a browser-based front end, browser speech recognition when available, and
+  FFmpeg/Flite for the demo narration.
 - **What worked well:** Fill in from your actual build experience. Describe
   whether the rules-based tool flow and visible trace helped you demonstrate
   the scenario.
@@ -106,11 +113,9 @@ Complete this section with the entrant’s own experience before submission.
 ## Submission fields still requiring the entrant
 
 - Join the hackathon and submit through the entrant’s Devpost account.
-- The GitHub repository is currently named RevertProof and is private. Rename
-  it to `Chimora` in GitHub repository settings, then make it public and verify
-  that the MIT license appears. GitHub search found no `Chimora` repository and
-  no repo of that name in the owner account on October 22, 2026. If keeping the
-  repository private instead, invite
+- The GitHub repository is named `Chimora` and is currently private (checked
+  October 22, 2026). Before submission, make it public and verify the MIT
+  license appears, or keep it private and invite
   `testing@devpost.com`, knmeiss, giolaq,
   anishamalde, mosesroth, and emersonsklar. Confirm all invitations are
   accepted. On a personal-account repository, GitHub collaborators receive

@@ -1,9 +1,10 @@
 # Chimora demo run sheet
 
-The current upload-ready clip is
+The current narrated, upload-ready clip is
 [`submission-assets/chimora-demo.mp4`](../submission-assets/chimora-demo.mp4)
-(64 seconds, with English captions burned in). The matching
-[caption file](../submission-assets/chimora-demo.srt) is included too.
+(64 seconds, with English narration and captions burned in). The matching
+[caption file](../submission-assets/chimora-demo.srt) and
+[voiceover script](../submission-assets/chimora-demo-narration.txt) are included too.
 Upload the video publicly to YouTube or Vimeo and add its URL to Devpost.
 
 ## Reset

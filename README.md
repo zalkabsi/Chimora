@@ -82,10 +82,10 @@ repository, verify that every invitation is accepted. A working demo, a public
 English YouTube/Vimeo video under three minutes, and product feedback are also
 required.
 
-The app is named **Chimora**. The GitHub repository is still named RevertProof;
-rename it to `Chimora` in GitHub repository settings before making it public.
-GitHub repository search found no `Chimora` match, and the owner account has no
-repository with that name (checked October 22, 2026).
+The app and GitHub repository are both named **Chimora**. The repository is
+currently private (checked October 22, 2026). Before submission, either make
+it public under the included MIT license or invite the required Devpost and
+Amazon reviewers and confirm their access.
 The submission deadline shown by Devpost is October 23, 2026 at 12:00 PM PDT
 (10:00 PM GMT+3).
 

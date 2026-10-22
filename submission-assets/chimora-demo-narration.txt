@@ -1,0 +1,15 @@
+Voiceover script for chimora-demo.mp4. Each line begins at the matching
+caption cue in chimora-demo.srt.
+
+00:00  Chimora is a simulated Alexa plus front desk.
+00:05  A sample arrival starts the schedule check and reply workflow.
+00:11  The trace shows the assistant plan and local tool results.
+00:17  Elena is booked at three PM and arrived two minutes early.
+00:25  The owner edits and approves. No message is sent.
+00:34  Marcus arrives thirty minutes early; a wait-or-return reply is suggested.
+00:44  An unknown visitor is not guessed; the assistant asks for details.
+00:58  All data is synthetic. No live Alexa plus, Ring, camera, lock, or messaging.
+
+The current voice track was generated offline with FFmpeg's Flite filter
+(slt voice). The speech.platform.bing.com endpoint could not be resolved from
+the rendering environment, so Edge's neural voice was unavailable here.

@@ -34,13 +34,12 @@ accurately.
    URL to Devpost.
 5. Complete product feedback for every developer tool, API, or SDK used.
 
-The GitHub repository is named RevertProof and remains private until the owner
-changes its settings. Rename it to `Chimora` before public release; GitHub
-search returned no `Chimora` repository and the owner account has no same-name
-repository (checked October 22, 2026). The `work` branch contains a clean
-Chimora-only history root and the MIT license. If the repository stays private
-instead, invite `testing@devpost.com` and the five reviewers and confirm their
-access; this personal-account repository grants collaborators write access.
+The GitHub repository is already named `Chimora` and is currently private
+(checked October 22, 2026). The `work` branch contains a clean Chimora-only
+history root and the MIT license. Before submission, make the repo public or
+keep it private and invite `testing@devpost.com` plus the five reviewers, then
+confirm their access. This personal-account repository grants collaborators
+write access.
 The repository includes a Render Blueprint, but no hosting account has been
 connected and no public app URL exists yet. After making the repository public,
 deploy it and add the URL if the live Devpost form asks for “Try it Out.”
@@ -119,7 +118,8 @@ Neither mini-challenge is required for the Alexa+ track submission.
 - [ ] If the project existed before August 31, describe and demonstrate the
       significant updates made during the hackathon period.
 - [ ] Video is public, English, shorter than three minutes, and shows the
-      working simulation without unlicensed marks, music, or footage.
+      working simulation with clear narration and captions, without unlicensed
+      marks, music, or footage.
 - [ ] Judges can access the working demo and any required testing instructions
       through judging.
 - [ ] Product feedback covers the tools actually used, what worked, what needs
